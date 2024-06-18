@@ -13,7 +13,7 @@
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Formulating HTML for the website.
+  Header and Footers
 </div>
 
 <br />
