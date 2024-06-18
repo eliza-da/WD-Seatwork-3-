@@ -1,0 +1,843 @@
+
+/* Add Snoopy-themed styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+.Swoopy {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.Swoopy {
+    font-size: 1em;
+    padding: 1em;
+}
+.big-bold-text {
+    font-size: 1em;
+    font-weight: bold;
+}
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a.button {
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 8px 16px;
+    margin: 0 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a.button:hover {
+    background-color: #0056b3;
+    color: #e6ede6;
+}
+
+/* Add Snoopy-themed styling */
+.CharlieBrown {
+    background-color: #FFD700; /* Gold */
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+.Linus {
+    background-color: #87CEEB; /* Sky Blue */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.Lucy {
+    background-color: #FF69B4; /* Hot Pink */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.Snoopy {
+    background-color: #ffffff; /* Beige */
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+.Woodstock {
+    background-color: #FFD700; /* Gold */
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the Snoopy image within each header */
+.CharlieBrown img,
+.Linus img,
+.Lucy img,
+.Snoopy img,
+.Woodstock img {
+    /* Adjust styles for the Snoopy image */
+    width: 100px; /* Adjust size as needed */
+    height: auto;
+    margin-bottom: 10px; /* Add margin below the image */
+}
+
+/* Other sections styling */
+.CharlieBrown {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px; /* Adjust padding as needed */
+}
+
+.CharlieBrown .header-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.CharlieBrown img {
+    margin-right:auto; /* Pushes the buttons to the right */
+    height: 50px; /* Adjust the height as needed */
+}
+
+.CharlieBrown .button-container {
+    display: flex;
+    gap: 15px; /* Space between the buttons */
+}
+
+.CharlieBrown  .button {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #007bff00;
+    color: white;
+    border-radius: 5px;
+    font-family: 'Arial', sans-serif; /* Change font family */
+    font-size: 16px; /* Change font size */
+    font-weight: bold; /* Change font weight */
+}
+.SnoopyHouse {
+    font-size: 1em;
+    padding: 20px;
+    text-align: center;
+    background-color: #b19cd9;
+    color: white;
+}
+
+/*Linus header*/
+.Lin {
+    background-color: #333939;
+    color: white;
+    padding: 200px;
+    text-align: center;
+}
+
+.Lin {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px; /* Adjust padding as needed */
+}
+
+.Lin .header-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.Lin img {
+    margin-right:auto; /* Pushes the buttons to the right */
+    height: 50px; /* Adjust the height as needed */
+}
+
+.Lin .button-container {
+    display: flex;
+    gap: 15px; /* Space between the buttons */
+}
+
+.Lin .button {
+    text-decoration: none;
+    padding: 10px 10px;
+    background-color: #007bff00;
+    color: white;
+    border-radius: 1px;
+    font-family: 'Arial', sans-serif; /* Change font family */
+    font-size: 16px; /* Change font size */
+    font-weight: bold; /* Change font weight */
+}
+
+.Pats {
+    border: 2px solid white; /* Adjust the border as needed */
+}
+
+/*Snopy*/
+.snoopy {
+    background-color: #fffefe;
+    color: white;
+    padding: 200px;
+    text-align: center;
+}
+
+.snoopy {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px; /* Adjust padding as needed */
+}
+
+.snoopy .header-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.snoopy img {
+    margin-right:auto; /* Pushes the buttons to the right */
+    height: 50px; /* Adjust the height as needed */
+}
+
+.snoopy .button-container {
+    display: flex;
+    gap: 15px; /* Space between the buttons */
+}
+
+.snoopy .button {
+    text-decoration: none;
+    padding: 10px 10px;
+    background-color: #007bff00;
+    color: rgb(0, 0, 0);
+    border-radius: 1px;
+    font-family: 'Arial', sans-serif; /* Change font family */
+    font-size: 16px; /* Change font size */
+    font-weight: bold; /* Change font weight */
+}
+
+.snoopy .fa-heart {
+    color: rgb(0, 0, 0); /* Icon color */
+    font-size: 40px; /* Icon size */
+    margin-right: 10px; /* Space between icon and other elements */
+}
+
+/*lucy*/
+.Lucy {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center content horizontally */
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: transparent;
+    color: rgb(255, 192, 203); /* Change color to pink */
+    text-align: center;
+    height: 10vh; /* Full viewport height */
+}
+
+.Lucy .header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center content horizontally */
+    width: 100%;
+    flex-direction: column; /* Stack items vertically */
+    gap: 20px; /* Space between header items */
+}
+
+.Lucy img {
+    height: 100px; /* Adjust the height as needed */
+    margin-right: px; /* Add some space between the image and the buttons */
+}
+
+.Lucy .button-container {
+    display: flex;
+    gap: 15px; /* Space between the buttons */
+}
+
+.Lucy .button {
+    text-decoration: none;
+    padding: 10px 10px;
+    background-color: #007bff00;
+    color: rgb(255, 192, 203); /* Change color to pink */
+    border-radius: 1px;
+    font-family: 'Arial', sans-serif; /* Change font family */
+    font-size: 16px; /* Change font size */
+    font-weight: bold; /* Change font weight */
+}
+/*Woodstcok*/
+.woodstock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 80px; /* Adjust the width as needed */
+    height: 100vh; /* Full height of the viewport */
+    background-color: #000; /* Background color of the header */
+    padding: 20px 0;
+}
+
+.woodstock .logo img {
+    width: 50px; /* Adjust the logo size as needed */
+    height: auto;
+}
+
+.woodstock .nav-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Space between the icons */
+}
+
+.woodstock .nav-menu a {
+    color: rgb(246, 242, 5);
+    font-size: 24px; /* Adjust the icon size as needed */
+    text-decoration: none;
+}
+
+/*animated-Header*/
+
+/* General button styles */
+.CharlieBrown1 {
+    background-color: #FFD700; /* Gold */
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+.Linus1 {
+    background-color: #87CEEB; /* Sky Blue */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.Lucy1 {
+    background-color: #FF69B4; /* Hot Pink */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.Snoopy {
+    background-color: #ffffff; /* Beige */
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+.Woodstock1 {
+    background-color: #FFD700; /* Gold */
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the Snoopy image within each header */
+.CharlieBrown img,
+.Linus img,
+.Lucy img,
+.Snoopy img,
+.Woodstock img {
+    /* Adjust styles for the Snoopy image */
+    width: 100px; /* Adjust size as needed */
+    height: auto;
+    margin-bottom: 10px; /* Add margin below the image */
+}
+
+/* Other sections styling */
+.CharlieBrown1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px; /* Adjust padding as needed */
+}
+
+.CharlieBrown1 .header-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.CharlieBrown1 img {
+    margin-right:auto; /* Pushes the buttons to the right */
+    height: 50px; /* Adjust the height as needed */
+}
+
+.CharlieBrown1 .button-container {
+    display: flex;
+    gap: 15px; /* Space between the buttons */
+}
+
+.CharlieBrown1  .button {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #007bff00;
+    color: white;
+    border-radius: 5px;
+    font-family: 'Arial', sans-serif; /* Change font family */
+    font-size: 16px; /* Change font size */
+    font-weight: bold; /* Change font weight */
+}
+.CharlieBrown1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px; /* Adjust padding as needed */
+}
+
+.CharlieBrown1 .header-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.CharlieBrown1 img {
+    margin-right: auto; /* Pushes the buttons to the right */
+    height: 50px; /* Adjust the height as needed */
+    transition: transform 0.5s ease-in-out; /* Smooth transition for the spin effect */
+}
+
+.CharlieBrown1 .button-container {
+    display: flex;
+    gap: 15px; /* Space between the buttons */
+}
+
+.CharlieBrown1 .button {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #007bff00;
+    color: white;
+    border-radius: 5px;
+    font-family: 'Arial', sans-serif; /* Change font family */
+    font-size: 16px; /* Change font size */
+    font-weight: bold; /* Change font weight */
+    transition: background-color 0.3s ease; /* Smooth transition for the hover effect */
+}
+
+/* New CSS for hover effect */
+.CharlieBrown1 .button:hover {
+    background-color: #0056b3; /* Change color on hover */
+}
+
+/* New CSS for spinning logo */
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.CharlieBrown1 img:hover {
+    animation: spin 1s linear infinite; /* Spin the logo on hover */
+}
+.SnoopyHouse {
+    font-size: 1em;
+    padding: 20px;
+    text-align: center;
+    background-color: #b19cd9;
+    color: white;
+}
+
+/*Linus header*/
+.Lin1 {
+    background-color: #333939;
+    color: white;
+    padding: 200px;
+    text-align: center;
+}
+
+.Lin1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px; /* Adjust padding as needed */
+}
+
+.Lin1 .header-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.Lin1 img {
+    margin-right:auto; /* Pushes the buttons to the right */
+    height: 50px; /* Adjust the height as needed */
+}
+
+.Lin1 .button-container {
+    display: flex;
+    gap: 15px; /* Space between the buttons */
+}
+
+.Lin1 .button {
+    text-decoration: none;
+    padding: 10px 10px;
+    background-color: #007bff00;
+    color: white;
+    border-radius: 1px;
+    font-family: 'Arial', sans-serif; /* Change font family */
+    font-size: 16px; /* Change font size */
+    font-weight: bold; /* Change font weight */
+}
+
+.Pats {
+    border: 2px solid white; /* Adjust the border as needed */
+}
+/* Existing CSS */
+.Lin1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px; /* Adjust padding as needed */
+}
+
+.Lin1 .header-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.Lin1 img {
+    margin-right: auto; /* Pushes the buttons to the right */
+    height: 50px; /* Adjust the height as needed */
+    transition: transform 0.5s ease-in-out; /* Smooth transition for the spin effect */
+}
+
+.Lin1 .button-container {
+    display: flex;
+    gap: 15px; /* Space between the buttons */
+}
+
+.Lin1 .button {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #007bff00;
+    color: white;
+    border-radius: 5px;
+    font-family: 'Arial', sans-serif; /* Change font family */
+    font-size: 16px; /* Change font size */
+    font-weight: bold; /* Change font weight */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for the hover effect */
+}
+
+/* New CSS for hover effect */
+.Lin1 .button:hover {
+    transform: scale(1.2); /* Grow effect */
+    box-shadow: 0 0 15px rgba(0, 123, 255, 0.7); /* Glow effect */
+}
+
+/* New CSS for spinning logo and popout text */
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes popout {
+    0% {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.Lin1 img:hover {
+    animation: spin 1s linear infinite, popout 0.5s ease-in-out; /* Spin and popout effect */
+    position: relative;
+}
+
+.Lin1 img:hover::after {
+    content: 'Linus';
+    position: absolute;
+    top: 60px; /* Adjust position as needed */
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    animation: popout 0.5s ease-in-out; /* Popout effect for the text */
+}
+
+/*Snopy*/
+.snoopy1 {
+    background-color: #fffefe;
+    color: white;
+    padding: 200px;
+    text-align: center;
+}
+
+.snoopy1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px; /* Adjust padding as needed */
+}
+
+.snoopy1 .header-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.snoopy1 img {
+    margin-right:auto; /* Pushes the buttons to the right */
+    height: 50px; /* Adjust the height as needed */
+}
+
+.snoopy1 .button-container {
+    display: flex;
+    gap: 15px; /* Space between the buttons */
+}
+
+.snoopy1 .button {
+    text-decoration: none;
+    padding: 10px 10px;
+    background-color: #007bff00;
+    color: rgb(0, 0, 0);
+    border-radius: 1px;
+    font-family: 'Arial', sans-serif; /* Change font family */
+    font-size: 16px; /* Change font size */
+    font-weight: bold; /* Change font weight */
+}
+
+.snoopy1 .fa-heart {
+    color: rgb(0, 0, 0); /* Icon color */
+    font-size: 40px; /* Icon size */
+    margin-right: 10px; /* Space between icon and other elements */
+}
+/* Existing CSS */
+.snoopy1 {
+    background-color: #fffefe;
+    color: white;
+    padding: 200px;
+    text-align: center;
+}
+
+.snoopy1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px; /* Adjust padding as needed */
+}
+
+.snoopy1 .header-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.snoopy1 img {
+    margin-right: auto; /* Pushes the buttons to the right */
+    height: 50px; /* Adjust the height as needed */
+    transition: box-shadow 0.3s ease; /* Smooth transition for the glow effect */
+}
+
+.snoopy1 .button-container {
+    display: flex;
+    gap: 15px; /* Space between the buttons */
+}
+
+.snoopy1 .button {
+    text-decoration: none;
+    padding: 10px 10px;
+    background-color: #007bff00;
+    color: rgb(0, 0, 0);
+    border-radius: 1px;
+    font-family: 'Arial', sans-serif; /* Change font family */
+    font-size: 16px; /* Change font size */
+    font-weight: bold; /* Change font weight */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+/* New CSS for hover effects */
+.snoopy1 .button:hover {
+    transform: translate(-10px, -10px); /* Move to upper left */
+}
+
+.snoopy1 img:hover {
+    box-shadow: 0 0 15px rgba(255, 255, 0, 0.7); /* Glow effect */
+}
+
+.snoopy1 h1 i {
+    color: black; /* Initial heart color */
+    transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+.snoopy1 h1 i:hover {
+    color: red; /* Change heart color to red on hover */
+}
+
+/*lucy*/
+.Lucy1 {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center content horizontally */
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: transparent;
+    color: rgb(255, 192, 203); /* Change color to pink */
+    text-align: center;
+    height: 10vh; /* Full viewport height */
+}
+
+.Lucy1 .header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center content horizontally */
+    width: 100%;
+    flex-direction: column; /* Stack items vertically */
+    gap: 20px; /* Space between header items */
+}
+
+.Lucy1 img {
+    height: 100px; /* Adjust the height as needed */
+    margin-right: px; /* Add some space between the image and the buttons */
+}
+
+.Lucy1 .button-container {
+    display: flex;
+    gap: 15px; /* Space between the buttons */
+}
+
+.Lucy1 .button {
+    text-decoration: none;
+    padding: 10px 10px;
+    background-color: #007bff00;
+    color: rgb(255, 192, 203); /* Change color to pink */
+    border-radius: 1px;
+    font-family: 'Arial', sans-serif; /* Change font family */
+    font-size: 16px; /* Change font size */
+    font-weight: bold; /* Change font weight */
+}
+/* Existing CSS */
+.Lucy1 {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center content horizontally */
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: transparent;
+    color: rgb(255, 192, 203); /* Change color to pink */
+    text-align: center;
+    height: 10vh; /* Adjusted height */
+}
+
+.Lucy1 .header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center content horizontally */
+    width: 100%;
+    flex-direction: column; /* Stack items vertically */
+    gap: 20px; /* Space between header items */
+}
+
+.Lucy1 img {
+    height: 100px; /* Adjust the height as needed */
+    transition: transform 0.3s ease; /* Smooth transition for the grow effect */
+}
+
+.Lucy1 img:hover {
+    transform: scale(1.2); /* Grow effect */
+}
+
+.Lucy1 .button-container {
+    display: flex;
+    gap: 15px; /* Space between the buttons */
+}
+
+.Lucy1 .button {
+    text-decoration: none;
+    padding: 10px 10px;
+    background-color: #007bff00;
+    color: rgb(255, 192, 203); /* Change color to pink */
+    border-radius: 1px;
+    font-family: 'Arial', sans-serif; /* Change font family */
+    font-size: 16px; /* Change font size */
+    font-weight: bold; /* Change font weight */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.Lucy1 .button:hover {
+    transform: translateY(-10px); /* Pop up effect */
+    box-shadow: 0 4px 15px rgba(255, 192, 203, 0.7); /* Glow effect */
+}
+
+/*Woodstcok*/
+.woodstock1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 80px; /* Adjust the width as needed */
+    height: 100vh; /* Full height of the viewport */
+    background-color: #000; /* Background color of the header */
+    padding: 20px 0;
+}
+
+.woodstock1 .logo img {
+    width: 50px; /* Adjust the logo size as needed */
+    height: auto;
+}
+
+.woodstock1 .nav-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Space between the icons */
+}
+
+.woodstock1 .nav-menu a {
+    color: rgb(246, 242, 5);
+    font-size: 24px; /* Adjust the icon size as needed */
+    text-decoration: none;
+}
+/* Existing CSS */
+.woodstock1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 80px; /* Adjust the width as needed */
+    height: 100vh; /* Full height of the viewport */
+    background-color: #000; /* Background color of the header */
+    padding: 20px 0;
+}
+
+.woodstock1 .logo img {
+    width: 50px; /* Adjust the logo size as needed */
+    height: auto;
+}
+
+.woodstock1 .nav-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Space between the icons */
+}
+
+.woodstock1 .nav-menu a {
+    color: rgb(246, 242, 5);
+    font-size: 24px; /* Adjust the icon size as needed */
+    text-decoration: none;
+    transition: transform 0.5s ease-in-out; /* Smooth transition for the spin effect */
+}
+
+.woodstock1 .nav-menu a:hover {
+    transform: rotate(360deg); /* Spin effect */
+}
+
+
+
+
