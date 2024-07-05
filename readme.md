@@ -63,13 +63,13 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-Create a Header and Footer Display Website with distinct designs using pure HTML and CSS. Include both static and animated versions of the headers and footers. Ensure the website is well-structured, deployed, and the README file is updated accordingly.
+Create a web page that consists of a landing page to help navigate through static and animated designs for headers and footers.
 
 ### Requirements
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
 1. Design and Theme
-Choose a unique and engaging design theme for your landing page.
+PEANUTS: Snoopy & Friends
 
 2. Seatwork 3 Page
 Technology Stack: Pure HTML and CSS only.
@@ -83,7 +83,7 @@ header-gallery for header designs.
 footer-gallery for footer designs.
 
 3. Content
-Provide an engaging overview of your website, explaining its purpose and content.
+Interact with Snoopy & Friends on this website, designed to bring the beloved Peanuts character to life in every header and footer as the site offers a range of static and animated options to suit your needs.
 
 4. Deployment
 Deploy your website and ensure it is accessible online.
