@@ -1,5 +1,4 @@
 
-/* Add Snoopy-themed styling */
 * {
     margin: 0;
     padding: 0;
@@ -270,7 +269,6 @@ nav a.button:hover {
     font-size: 16px; /* Change font size */
     font-weight: bold; /* Change font weight */
 }
-/*Woodstcok*/
 .woodstock {
     display: flex;
     flex-direction: column;
@@ -302,7 +300,6 @@ nav a.button:hover {
 
 /*animated-Header*/
 
-/* General button styles */
 .CharlieBrown1 {
     background-color: #FFD700; /* Gold */
     color: black;
@@ -338,7 +335,6 @@ nav a.button:hover {
     text-align: center;
 }
 
-/* Style the Snoopy image within each header */
 .CharlieBrown img,
 .Linus img,
 .Lucy img,
