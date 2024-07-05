@@ -81,11 +81,13 @@ Overview:
 -Headers Button: Click this button to explore the range of static and animated headers.
 -Footers Button: Click this button to delve into the selection of static and animated footers.
 
-2. Headers Section:
+2. Headers Section
+
 -Static Headers Gallery: Browse through a variety of classic Snoopy header designs. Hover over each design for a quick preview.
 -Animated Headers Gallery: View dynamic headers with Snoopy animations. Click on each design for a full-screen demo.
 
-3. Footers Section:
+3. Footers Section
+
 -Static Footers Gallery: Peruse a collection of charming static footers featuring Snoopy.
 -Animated Footers Gallery: Discover footers with playful Snoopy animations. Click on each design to see it in action.
 
