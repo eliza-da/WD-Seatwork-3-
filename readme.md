@@ -68,28 +68,26 @@ Create a web page that consists of a landing page to help navigate through stati
 ### Requirements
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-1. Design and Theme
 PEANUTS: Snoopy & Friends
 
-2. Seatwork 3 Page
-Technology Stack: Pure HTML and CSS only.
-File Structure:
-Ensure all HTML files are named index.html.
-No CSS codes should be added directly in the HTML files; use external CSS files.
-Maintain a proper file structure with appropriate naming conventions.
-All file names must use CamelCase.
-Subfolders should be named according to their content or functionality:
-header-gallery for header designs.
-footer-gallery for footer designs.
-
-3. Content
 Interact with Snoopy & Friends on this website, designed to bring the beloved Peanuts character to life in every header and footer as the site offers a range of static and animated options to suit your needs.
 
-4. Deployment
-Deploy your website and ensure it is accessible online.
+Overview:
 
-5. README Update
-Update the README file to reflect the project details, usage instructions, and any references.
+1. Landing Page
+
+Central Display: The landing page features a welcoming animation of Snoopy to set the tone.
+Two Main Buttons: Clearly labeled buttons for "Headers" and "Footers" to guide you through the collection.
+Headers Button: Click this button to explore the range of static and animated headers.
+Footers Button: Click this button to delve into the selection of static and animated footers.
+
+Headers Section:
+Static Headers Gallery: Browse through a variety of classic Snoopy header designs. Hover over each design for a quick preview.
+Animated Headers Gallery: View dynamic headers with Snoopy animations. Click on each design for a full-screen demo.
+
+Footers Section:
+Static Footers Gallery: Peruse a collection of charming static footers featuring Snoopy.
+Animated Footers Gallery: Discover footers with playful Snoopy animations. Click on each design to see it in action.
 
 ### Submission Criteria
 1. Headers and Footers:
